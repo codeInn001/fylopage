@@ -352,7 +352,7 @@ form {
 }
 
 .sign-up__form .signup-button {
-    padding: 0 1rem;
+    padding: 0.5rem 3rem;
     border-radius: 1rem;
     border: none;
     margin-left: 1rem;
@@ -478,6 +478,11 @@ ion-icon:hover {
 
     .productivity-section {
         flex-direction: column;
+    }
+
+    .testimonial-section__punctuation {
+        left: 0.3rem;
+        top: 5rem;
     }
 
     .testimonial-section {
