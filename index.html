@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img class="logo-image" src="/images/logo.svg" alt="fylo-logo" srcset="">
+    </div>
+    <nav class="navbar">
+      <ul class="items">
+        <li class="items-list item-list__features"><a href="#">Features</a></li>
+        <li class="items-list item-list__team"><a href="#">Team</a></li>
+        <li class="items-list item-list__signin"><a href="#">Sign in</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="background-image">
+    <img src="/images/bg-curvy-desktop.svg" alt="" srcset="">
+  </div>
+
+  <main class="main-content">
+    <section class="section section-intro">
+      <div class="intro-item intro-items__image">
+        <img src="/images/illustration-intro.png" alt="intro-image" class=intro-items__image-illustration>
+      </div>
+      <div class="intro-item intro-item__header">
+         <h1>All your files in one secure location,<br> accessible anywhere.</h1>
+      </div>
+      <div class="intro-item intro-item__details">
+        <p>
+          Fylo stores all your most important files in one secure location.<br> Access them wherever 
+          you need, share and collaborate with <br> friends family, and co-workers.
+        </p>
+      </div>
+      <div class="intro-item intro-item__button"><button class="intro-item__button">Get Started</button></div>
+    </section>
+
+    <section class="section section-features">
+      <article class="article-feature article-feature__access">
+        <div class="article-feature__item article-feature__image-item-parent">
+          <img src="/images/icon-access-anywhere.svg" alt="acess-image" class="article-feature-image-item-child">
+        </div>
+        <div class="article-feature__item article-feature__header-item">
+          <h4>Access your files, anywhere</h4>
+        </div>
+        <div class="article-feature__item article-feature__details-item">
+          <p>
+            ability to use a smartphone, tablet, or computer <br>to access your account means your 
+            files follow you <br>everywhere.
+          </p>  
+        </div>
+      </article>
+
+      <article class="article-feature article-feature__security">
+        <div class="article-feature__item article-feature__image-item-parent">
+          <img src="/images/icon-security.svg" alt="security-image" class="article-feature-image-item-child">
+        </div>
+        <div class="article-feature__item article-feature__header-item">
+          <h4>Security you can trust</h4>
+        </div>
+        <div class="article-feature__item article-feature__details-item">
+          <p>
+            authentication and user-controlled encryption are<br> just a couple of the security 
+            features we allow to help <br>secure your files.
+          </p>  
+        </div>
+      </article>
+
+      <article class="article-feature article-feature__collaborate">
+        <div class="article-feature__item article-feature__image-item-parent">
+          <img src="/images/icon-collaboration.svg" alt="collaboration-image" class="article-feature-image-item-child">
+        </div>
+        <div class="article-feature__item article-feature__header-item">
+          <h4>Real-time collaboration</h4>
+        </div>
+        <div class="article-feature__item article-feature__details-item">
+          <p>
+            share files and folders with friends, family and <br>colleagues for live collaboration. 
+            No email attachments <br>required.
+          </p>  
+        </div>
+      </article>
+
+      <article class="article-feature article-feature__storage">
+        <div class="article-feature__item article-feature__image-item-parent">
+          <img src="/images/icon-any-file.svg" alt="anywhere-image" class="article-feature-image-item-child">
+        </div>
+        <div class="article-feature__item article-feature__header-item">
+          <h4>Store any type of file</h4>
+        </div>
+        <div class="article-feature__item article-feature__details-item">
+           <p>Whether you're sharing holidays photos or work <br>documents, Fylo has you covered allowing for all 
+              file <br> types to be securely stored and shared.
+           </p>  
+        </div>
+      </article>
+    </section>
+
+    <section class="section productivity-section">
+      <div class="productivity-section__image-parent">
+        <img src="/images/illustration-stay-productive.png" alt="productivity-image" class="productivity-section__image-child">
+      </div>
+      <div class="productivity-text">
+        <h2 class="productivity-text__header productivity-text__header-bold">
+          Stay productive,<br> wherever you are
+        </h2>
+        <p class="productivity-text__details productivity-text__details-first">
+          Never let location be an issue when accessing your files. Fylo has you <br>covered for all of your file 
+          storage needs.
+        </p>
+        <p class="productivity-text__details productivity-text__details-first">
+          Securely share files and folders with friends, family and colleagues for live <br>collaboration. No email 
+          attachments required.
+        </p>
+        <a href="http://" target="_blank" rel="noopener noreferrer" class="how-it-works">
+           See how Fylo works
+          <!-- <img class="arrow" src="/images/icon-arrow.svg" alt=""> -->
+          <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs><circle id="b" cx="6" cy="6" r="6"/><filter x="-25%" y="-25%" width="150%" height="150%" filterUnits="objectBoundingBox" id="a">
+              <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+              <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+              <feColorMatrix values="0 0 0 0 0.384313725 0 0 0 0 0.878431373 0 0 0 0 0.850980392 0 0 0 0.811141304 0" in="shadowBlurOuter1"/>
+            </filter>
+            </defs><g fill="none" fill-rule="evenodd"><g transform="translate(2 2)"><use fill="#000" filter="url(#a)" xlink:href="#b"/>
+              <use fill="#62E0D9" xlink:href="#b"/>
+            </g><path d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z" fill="#1B2330"/></g>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <section class="testimonial-section">
+      <div class="testimonial-section__punctuation">
+        <div class="testimonial-section__punctuation-quotation"><img src="/images/bg-quotes.png" alt="" srcset=""></div>
+      </div>
+
+      <div class="testimonial-section__indiviuals one">
+        <div class="testimonial-section__indiviual-first" itemscope itemtype="http://schema.org/Person">
+          <div class="testimonial-section__details">
+            <p>
+              Fylo has improved our team productivity by <br>an order of magnitude. Since making the <br>switch our team has 
+              become a well-oiled <br>collaboration machine.
+            </p>
+          </div>
+          <div class="testimonial-section__portfolio">
+            <div class="testimonial-section__portfolio-image-parent">
+              <img src="/images/profile-1.jpg" alt="satish-patel-image" srcset=""class="testimonial-section__portfolio-image-child" itemprop="image">
+            </div>
+            <div class="testimonial-section__portfolio-name-jobTitle">
+              <p class="testimonial-section__portfolio-name" itemprop="name">Satish Patel</p>
+              <p class="testimonial-section__portfolio-jobTitle" itemprop="jobTitle">Founder & CEO, Huddle</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-section__indiviuals two">
+        <div class="testimonial-section__indiviual-second" itemscope itemtype="http://schema.org/Person">
+          <div class="testimonial-section__details">
+            <p>
+              Fylo has improved our team productivity by <br>an order of magnitude. Since making the <br>switch our team has 
+              become a well-oiled <br>collaboration machine.
+            </p>
+          </div>
+          <div class="testimonial-section__portfolio">
+            <div class="testimonial-section__portfolio-image-parent">
+              <img src="/images/profile-2.jpg" alt="bruce-mckenzie-image" srcset=""class="testimonial-section__portfolio-image-child" itemprop="image">
+            </div>
+            <div class="testimonial-section__portfolio-name-jobTitle">
+              <p class="testimonial-section__portfolio-name" itemprop="name">Bruce McKenzie</p>
+              <p class="testimonial-section__portfolio-jobTitle" itemprop="jobTitle">Founder & CEO, Huddle</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-section__indiviuals three">
+        <div class="testimonial-section__indiviual-third" itemscope itemtype="http://schema.org/Person">
+          <div class="testimonial-section__details">
+            <p>
+              Fylo has improved our team productivity by <br>an order of magnitude. Since making the <br>switch our team has 
+              become a well-oiled <br>collaboration machine.
+            </p>
+          </div>
+          <div class="testimonial-section__portfolio">
+            <div class="testimonial-section__portfolio-image-parent">
+              <img src="/images/profile-3.jpg" alt="iva-boyd-image" srcset=""class="testimonial-section__portfolio-image-child" itemprop="image">
+            </div>
+            <div class="testimonial-section__portfolio-name-jobTitle">
+              <p class="testimonial-section__portfolio-name" itemprop="name">Iva Boyd</p>
+              <p class="testimonial-section__portfolio-jobTitle" itemprop="jobTitle">Founder & CEO, Huddle</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="signup">
+      <div class="form-page">
+        <div class="signup-header">
+          <h2 class="signup-header__heading">Get early access today</h2>
+        </div>
+        <div class="signup-header__text">
+          <p>
+            It only takes a minute to sign up and our free starter tier is extremely generous. If you have any<br> 
+            questions, our support team would be happy to help you.
+          </p>
+        </div>
+        <div class="sign-up__form">
+          <form action="">
+            <div class="input-email">
+              <input type="email">
+              <p class="validate-email"></p>
+            </div>
+            <div class="button-mail">
+              <button class="button signup-button">Get Started For Free</button>
+            </div>
+          </form>
+        </div class="sign-up__form">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo footer-logo">
+      <img class="logo-image" src="/images/logo.svg" alt="fylo-logo" srcset="">
+    </div>
+
+    <div class="footer-company-info">
+      <div class="footer-company-info-item footer-company-info-item__location">
+        <img height="15px" width="10px"src="/images/icon-location.svg" alt="location-icon" class="footer-location__image">
+        <p class="vcard address">
+          Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit, sed do eiusmod tempor <br>sincididunt ut labore et 
+          dolore magna aliqua
+        </p>
+      </div>
+
+      <div class="footer-company-info-item footer-company-info-item footer-column">
+        <ul class="footer-company-items footer-company-items__contact">
+          <li class="footer-company-item-list"><a href=""><img src="/images/icon-phone.svg" alt="phone-icon" srcset=""> <span class="telephone">+1-543-123-4567</span></a></li>
+          <li class="footer-company-item-list"><a><img src="/images/icon-email.svg" alt="email-icon" srcset=""> <span class="telephone">example@fylo.com</span></a></li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-company-info-item footer-column">
+        <ul class="footer-company-items footer-company-items__navbar">
+          <li class="footer-company-item-list"><a href="">About Us</a></li>
+          <li class="footer-company-item-list"><a href="">Jobs</a></li>
+          <li class="footer-company-item-list"><a href="">Press</a></li>
+          <li class="footer-company-item-list"><a href="">Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-company-info-item footer-column">
+        <ul class="footer-company-items footer-company-items__navbar-two">
+          <li class="footer-company-item-list"><a href="">Contact Us</a></li>
+          <li class="footer-company-item-list"><a href="">Terms</a></li>
+          <li class="footer-company-item-list"><a href="">Privacy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-company-info-item">
+        <ul class="footer-company-items footer-company-items__social-media">
+          <li class="footer-company-item-list"><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li class="footer-company-item-list"><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li class="footer-company-item-list"><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+
+      </div>
+    </div>
+
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="twitter.com/Alegeboss">codeinn</a>.
+    </p>
+  </footer>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</body>
+</html>
