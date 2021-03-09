@@ -217,7 +217,7 @@ body {
     text-decoration: none;
     border-bottom: 1px solid var(--cyan);
     padding-bottom: 2px;
-    width: 32.5%;
+    width: 9.7rem;
 }
 
 .productivity-section a:hover {
@@ -486,7 +486,7 @@ ion-icon:hover {
     }
 
     .productivity-section a {
-        width: 24.5vw;
+        width: 8.5rem;
     }
 
     .testimonial-section__punctuation {
@@ -512,8 +512,6 @@ ion-icon:hover {
         padding: 0;
         z-index: 2;
         background-color: var(--mainBackground);
-        /* position: a; */
-        /* height: 1rem; */
         margin-bottom: 0;
     }
 
